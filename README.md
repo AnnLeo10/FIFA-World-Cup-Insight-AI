@@ -25,6 +25,14 @@ The actual project's central objective is to explore how football data can revea
 | Databricks | Language-model access for AI-assisted analysis |
 | Hugging Face Datasets | Football data sourcing |
 
+## ⚠️ Current Scope & Limitations
+
+- **Data Coverage:** The depth of analysis depends on the availability and completeness of the underlying match datasets.
+- **Analytical Scope:** Advanced tactical and player-level performance analysis is still part of the project's ongoing development.
+- **AI Reliability:** AI-generated explanations may require verification against the underlying data and analytical results.
+
+These limitations will guide future improvements as AthenaIQ evolves towards a more comprehensive football performance analytics platform.
+
 ## 🔬 Development Status
 
 **Currently in development — analytical prototyping.**
