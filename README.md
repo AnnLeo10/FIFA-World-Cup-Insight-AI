@@ -1,5 +1,5 @@
 # AthenaIQ - A football intelligence platform that supports performance analysis, match preparation, post-match reviews, and data-informed evaluation of teams and players.
-# ⚽ FIFA World Cup Insight AI(A feature of my my main project)
+# ⚽ FIFA World Cup Insight AI(A feature of my main project)
 
 **Turning football match data into performance insights.**
 
