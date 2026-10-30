@@ -1,49 +1,70 @@
-# AthenaIQ - A football intelligence platform that supports performance analysis, match preparation, post-match reviews, and data-informed evaluation of teams and players.
-# ⚽ FIFA World Cup Insight AI(A feature of my main project)
+# ⚽ FIFA World Cup Insight AI
 
-**Turning football match data into performance insights.**
+**Exploring football data through Python, Databricks and Conversational AI.**
 
-FIFA World Cup Insight AI is an evolving football analytics feature of my project focused on understanding match performance through data science, statistical analysis, and artificial intelligence.
+FIFA World Cup Insight AI is an independent learning project developed as a hands-on experiment after completing the **AI Agents Fundamentals** course by Databricks.
 
-The actual project's central objective is to explore how football data can reveal team strengths, performance trends, attacking effectiveness, and tactical patterns. Conversational AI is being explored as an additional interface for querying match data and explaining analytical findings.
+The project explores how historical football data can be combined with Large Language Models (LLMs) to create a conversational interface through which users can ask questions and explore FIFA World Cup information.
 
-## 📊 Analytical Focus
+The objective was to move beyond theoretical concepts and gain practical experience connecting a language model to a Python application and working with structured football datasets.
 
-- **Match Performance Analysis** — Examine match outcomes, goals, expected goals (xG), and other available performance indicators.
-- **Attacking and Defensive Analysis** — Explore patterns in attacking output and defensive actions where the underlying data supports them.
-- **Passing and Tactical Exploration** — Investigate passing patterns and potential tactical behaviours as relevant event data becomes available.
-- **Data Visualisation** — Present football statistics through accessible, interactive visualisations.
-- **AI-Assisted Analysis** — Explore natural-language questions and evidence-based explanations grounded in available match data.
+## 🎯 Project Objectives
+
+- Explore historical FIFA World Cup match data.
+- Retrieve relevant football records using Python and Pandas.
+- Experiment with integrating a Large Language Model into a Python application.
+- Enable natural-language interaction with football datasets.
+- Understand the practical workflow involved in building LLM-powered applications.
+
+## 📊 Dataset
+
+The project uses:
+
+- **Historical FIFA World Cup dataset (1930–2022):** Match information and historical tournament records.
+- **2026 FIFA World Cup dataset:** A separate dataset sourced from Hugging Face.
+
+The availability and depth of analytical insights depend on the fields and coverage of the underlying datasets.
+
+## ⚙️ Implementation Workflow
+
+1. **Data Loading:** Loaded historical FIFA World Cup datasets into the Python environment.
+2. **Data Processing:** Used Pandas to prepare, explore and manipulate football data.
+3. **Data Retrieval:** Implemented logic to retrieve relevant match records based on user queries.
+4. **LLM Integration:** Configured Databricks CLI and SDK to connect the local Python application to Databricks GPT-OSS-120B.
+5. **Conversational Interface:** Developed an interactive interface using Streamlit to allow users to explore football information through natural-language questions.
 
 ## 🛠️ Technology Stack
 
-| Technology | Application |
+| Technology | Purpose |
+|---|---|
+| Python | Application development and logic |
+| Pandas | Data processing and manipulation |
+| Streamlit | Conversational user interface |
+| Databricks | LLM access and integration |
+| GPT-OSS-120B | Language model |
+| Hugging Face | Dataset sourcing |
 
-| Python | Data analysis and application logic |
-| Pandas | Data preparation and manipulation |
-| Streamlit | Interactive analytics interface |
-| Databricks | Language-model access for AI-assisted analysis |
-| Hugging Face Datasets | Football data sourcing |
+## 📌 About Project 
 
-## ⚠️ Current Scope & Limitations
+- The application focuses on exploring historical FIFA World Cup information.
+- Responses depend on the available dataset and implemented retrieval logic.
+- The application uses an LLM to generate conversational responses grounded in retrieved data.
+- AI-generated responses may require verification against the underlying records.
+- This is an experimental implementation, not a production-ready autonomous AI agent.
 
-- **Data Coverage:** The depth of analysis depends on the availability and completeness of the underlying match datasets.
-- **Analytical Scope:** Advanced tactical and player-level performance analysis is still part of the project's ongoing development.
-- **AI Reliability:** AI-generated explanations may require verification against the underlying data and analytical results.
+## 💡 Key Learnings
 
-These limitations will guide future improvements as AthenaIQ evolves towards a more comprehensive football performance analytics platform.
+Through this project, I gained practical exposure to:
 
-## 🔬 Development Status
+- Integrating LLMs into Python applications.
+- Working with Databricks CLI and SDK.
+- Preparing and retrieving structured datasets.
+- Connecting data retrieval workflows with language models.
+- Building interactive applications using Streamlit.
+- Understanding the importance of data grounding and answer verification in AI applications.
 
-**Currently in development — analytical prototyping.**
+## 📌 Project Status
 
-The current implementation explores historical World Cup match data, interactive analysis, and conversational AI. The breadth of analysis depends on the fields and coverage available in the underlying datasets.
+**Completed — Independent Learning Experiment**
 
-Advanced tactical analysis, deeper performance evaluation, and more capable analytical workflows are the main parts of the actual project. 
-
-## 🎯 Long-Term Vision
-
-To explore how football data science and AI can support more structured, accessible, and evidence-based performance analysis for the football community.
-
-**Domain:** Football Performance Analytics · Data Science · AI  
-**Status:** Ongoing Project
+This project was developed to apply concepts learned through the Databricks AI Agents Fundamentals course.
